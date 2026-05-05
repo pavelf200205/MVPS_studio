@@ -1,0 +1,15 @@
+# Python Virtual Environment
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE configurations
+.vscode/
+.idea/
+
+# Ignore LINO-UniPS weights but keep the folder structure
+third_party/LINO-UniPS/weights/*
+!third_party/LINO-UniPS/weights/.gitkeep
